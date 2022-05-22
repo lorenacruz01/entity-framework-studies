@@ -1,0 +1,8 @@
+CREATE TABLE Posts(
+	PostID INT IDENTITY(1,1),
+	DatePublished SMALLDATETIME,
+	Title VARCHAR(50),
+	Body VARCHAR(100)
+)
+ALTER TABLE Posts ADD PRIMARY KEY(PostID)
+select * from posts
